@@ -1,3 +1,7 @@
 *.db
 *.csv
 data/
+old/
+figures/
+.ipynb_checkpoints/
+.DS_store

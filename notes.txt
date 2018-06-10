@@ -1,0 +1,42 @@
+
+
+Could reduce size of monthly files also. We don’t need station lon/lat or addresses for every ride. Can just have station id and separate table with station locations that could merge. That would eliminate 6 columns! There are only a finite number of distinct stations, so station file wouldn’t be very big.
+
+
+- Maybe separate station info into separate data frame before writing to sql. Keep station ids in ‘rides’ , and make separate table with just station info, and id as primary key
+
+
+- Get list of US holidays and dates for each year to use.
+
+https://www.timeanddate.com/services/api/
+
+https://www.opm.gov/policy-data-oversight/snow-dismissal-procedures/federal-holidays/
+
+https://holidayapi.com/
+
+
+
+- Get weather data
+
+
+use python script for chron job
+save data as returned, do manipulation after
+get familiar w/ AWS S3
+add some logging to script!
+
+good to demonstrate working with messy data
+
+
+
+
+variable names change w/ 2016/10 file?
+
+
+
+
+
+
+
+
+
+
